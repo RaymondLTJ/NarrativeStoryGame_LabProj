@@ -37,7 +37,9 @@ void narasi2_1(){
     printf("“Jawaban adalah kunci. Urutan adalah jalan.”\n");
     printf("“Susun hasilnya dari yang TERKECIL hingga TERBESAR untuk melanjutkan.”\n\n");
     printf("1. 7^2 - 7\n2. Angka jika digabungkan menjadi huruf B\n3. Angka Keberuntungan\n4. (23 + 10 - 22) * (2^3)\n5. 62537^0\n\n");
+    printf("\x1B[3m");
     printf("Note: pastikan setelah setiap jawaban diakhiri dengan spasi\n");
+    printf("\x1B[0m");
     printf("Urutkan : ");
     
 
@@ -48,14 +50,18 @@ void narasi2_2(){
     printf("Saat kamu berada ditengah ruangan beberapa buku menyala dan muncul tulisan didinding.\n\n");
     printf("Hanya 1 buku yang dapat membawamu lanjut ke pintu berikutnya. pilihlah.\n\n");
     printf("43.Pengantar Aritmatika Dasar.\n41.Logika dan Paradoks Kuno\n18.Identitas Matematika Sederhana\n67.Geometri Ruang dan Dimensi\n1.Statistika untuk Pemula\n\n");
+    printf("\x1B[3m");
     printf("Aku bukan tentang menghitung banyaknya,\nbukan pula tentang bentuk atau peluang.\nAku menyederhanakan yang rumit,\nmenyatukan ruas kiri dan kanan menjadi sama\n\n");
+    printf("\x1B[0m");
 }
 
 void narasi2_3(){
     printf("Kamu memasuki ruangan kosong.\n");
     printf("Lalu tiba tiba tulisan muncul di dinding...\n\n");
     printf("inilah tantangan terakhirmu, gabungkan 2 jawaban di pintu sebelumnya menjadi 1 list yang tersusun\n");
+    printf("\x1B[3m");
     printf("Note: pastikan setelah setiap jawaban diakhiri dengan spasi\n");
+    printf("\x1B[0m");
     printf("Jawabanmu: ");
 }
 
@@ -178,3 +184,4 @@ int main(){
 
     return 0;
 }
+
